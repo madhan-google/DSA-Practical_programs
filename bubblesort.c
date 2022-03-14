@@ -5,25 +5,16 @@ int main(){
 	scanf("%d", &n);
 	printf("\nenter the elements : ");
 	int ar[n], i, j;
-	for(i=0; i<n; i++) ar[i] = 0;
+	for(i=0; i<n; i++) scanf("%d", &ar[i]);
 	for(i=0; i<n; i++){
-		scanf("%d", &ar[i]);
-	}
-	int count = 0;
-	for(i=0; i<n; i++){
-		for(j=i+1; j<n; j++){
-			if(ar[i]>ar[j]){
-				int t = ar[i];
-				ar[i] = ar[j];
-				ar[j] = t;
-				count++;
-			}
-		}
+		int min_ind = i;
+		for(j=i+1; j<n; j++)
+			if(ar[min_ind]>ar[j]) min_ind = j;
+		int t = ar[i];
+		ar[i] = ar[min_ind];
+		ar[min_ind] = t;
 	}
 	printf("\nsorted :\n");
-	for(j=0; j<n; j++){
-		printf("%d ", ar[j]);
-	}
-	printf("\ncount - %d", count);
+	for(j=0; j<n; j++) printf("%d ", ar[j]);
 	return 0;
 }

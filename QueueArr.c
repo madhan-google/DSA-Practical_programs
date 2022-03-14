@@ -27,10 +27,12 @@ void show(){
 int main(){
     int num, ch;
     while(!0){
-        printf("\n1.enqueue\n2.dequeue\n3.show\n4.exit\n");
+        printf("\n1.enqueue 2.dequeue 3.show 4.exit\n");
+        printf("enter your choice: ");
         scanf("%d", &ch);
         switch(ch){
             case 1:
+                printf("\nenter the number: ");
                 scanf("%d", &num);
                 enqueue(num);
                 break;

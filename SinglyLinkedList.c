@@ -74,10 +74,11 @@ int main(){
     size = 0;
     int ch, num;
     while(1){
-        printf("\n1.inser at first\n2.insert at end\n3.insert at middle\n4.delete at first\n5.delete ar end\n6.show\n7.exit");
+        printf("\n1.Insert at first 2.Insert at end 3.Insert at middle 4.Delete at first 5.Delete at end 6.Show 7.Exit");
         scanf("%d", &ch);
         switch(ch){
             case 1:
+                printf("\nenter the element: ");
                 scanf("%d", &num);
                 insertAtFirst(num);
                 break;

@@ -9,7 +9,8 @@ void peek();
 void display();
 int main(){
 	while(1){
-		printf("\n1.push\n2.pop\n3.peek\n4.display\n5.exit\n");
+		printf("\n1.push 2.pop 3.peek 4.display 5.exit\n");
+		printf("enter your choice: ");
 		int ch, num;
 		scanf("%d", &ch);
 		switch(ch){
