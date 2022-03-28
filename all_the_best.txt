@@ -1,0 +1,1053 @@
+
+Snippet
+
+Q1. Write a program to store the details of students(Roll No, Name, Age) using structure then search and print the details of the students of a given age.
+Input Format
+The first line of input consists of an integer N representing the number of students.
+The next N lines consist of Roll No, Name, and Age of students separated by space.
+The next line consists of the age which is going to be searched.
+Output Format
+The output prints the details of the students of a given age.
+Refer to the sample input and output for formatting specifications.
+Sample Input Sample Output
+3
+1 Alen 15
+2 potter 17
+3 William 15
+Student 1
+Roll no. : 1
+Name : Alen
+Age : 15
+
+Q2. Write a program to store and print the details of students(Roll No, Name, Age) using structure.
+Input Format
+The first line of input consists of an integer N representing the number of students.
+The next N lines consist of Roll No, Name, and Age of students separated by space.
+Output Format
+The output prints the student details.
+Refer to the sample input and output for formatting specifications.
+Sample Input Sample Output
+3
+1 Alen 15
+2 potter 17
+3 William 15
+Student 1
+Roll no. : 1
+Name : Alen
+Age : 15
+
+Q3. Write a program to sort N persons based on their weight in ascending order using structure.
+Input Format
+The first line consists of an Integer representing N.
+The next N lines consist of Name and weight separated by space.
+Output Format
+The output prints the person details in ascending order based on their weight.
+Refer to the sample input and output for formatting specifications.
+Sample Input Sample Output
+3
+Neo 50
+Elon 45
+Musk 80
+Elon 45
+Neo 50
+Musk 80
+
+Q4. Write a program to add two distances in inch-feet using structure. The values of the distances are to be taken from the user.
+Input Format
+The first line of input consists of two integers representing the inch and feet of the first distance separated by space.
+The second line of input consists of two integers representing the inch and feet of the second distance separated by space.
+Output Format
+The output prints the added value of the two distances.
+Refer to the sample input and output for formatting specifications.
+Sample Input Sample Output
+12 14
+12 13
+26 feet and 3 inch
+
+Q5. Write a program to get the name and five subject marks of a student and calculate the total marks and percentage of that student using structure.
+Input Format
+The first line of input consists of the name of the student.
+The next line consists of five subject marks separated by space.
+Output Format
+The output prints the Student Name, Total mark, and percentage.
+Refer to the sample input and output for formatting specifications.
+Sample Input Sample Output
+Manish
+45 89 70 65 45
+Name: Manish
+Total: 314
+Percentage: 62.80
+
+
+Coding
+
+Q1. A point in a plane can be represented by its two coordinates x and y. Create a structure to represent the point and write a function that accepts the structure and returns an integer (1, 2, 3,4 ) that
+indicates in which quadrant the point is located.
+Input Format
+Input consists of x and y separated by a space.
+Output Format
+Output prints the quadrant in which the point is located. Refer sample output.
+Sample Input Sample Output
+10 5 10 and 5 lies in quadrant 1
+Sample Input Sample Output
+5 -2 5 and -2 lies in quadrant 4
+
+Q2. Write a C program to read students’ records with each record containing the id, name, and age of a student. Display them in sorted order by name.
+Note Refer sample input and output for format.
+Input Format
+Number of students in the first line
+ID, Name, and age of all students separated by space
+Output Format
+Display the unsorted student records and sorted students records as shown in the sample output.
+Refer sample output for the exact format.
+Sample Input Sample Output
+5
+1 Ram 12
+2 Gopi 34
+3 Arun 21
+Unsorted Student Records:
+Id = 1 Name = Ram Age = 12
+Id = 2 Name = Gopi Age = 34
+Id = 3 Name = Arun Age = 21
+
+Q3. Create a structure to store Employee details like Employee name, Employee number, Department, and salary. Create functions to find,
+1. to display all the employees who belong to the “IT” department.
+2. to display all employees whose salary > 50000.
+Function Name should be
+1. displaydept
+2. displaysalary
+Input Format
+Number of employees
+For each employee,
+Name, number, department, and salary in a single line separated by space
+Output Format
+All IT department employees (Name, ID, and Salary)
+Employees with salaries greater than 50000 (Name, ID, and Department)
+Refer to the sample output for the exact format
+Sample Input Sample Output
+3
+Ramu 100 IT 52000
+Babu 101 CSE 55000
+Hari 102 IT 25000
+IT department employees
+Name : Ramu ID : 100 Salary : 52000.00
+Name : Hari ID : 102 Salary : 25000.00
+
+
+Q4. Create a structure to store the following details:
+1. Name
+2. grade point for three subjects
+3. Average
+The program must get input for ‘N’ students names and 3 subject grade points (grade will be an integer in the range of 5 to 10) and find out the average Grade
+1. Include function to sort the students based on Average, highest to lowest
+2. Include display function to display name and Average after sorting
+Function Name should be
+1. sortStudents
+2. display
+Input Format
+Number of students
+For each student,
+Name grades of three subjects in a single line separated by space
+Output Format
+Name and Average in descending order as shown in sample output
+Constraints
+0<=Grade<=10
+Sample Input Sample Output
+5
+Gopi 6 7 8
+Hari 7 8 9
+Sami 5 6 5
+Name : Ravi Average : 9.00
+Name : Hari Average : 8.00
+Name : Gopi Average : 7.00
+Name : Raju Average : 7 00
+
+
+Q5. Write a program to demonstrate union to store and display employee details such as Employee ID, Employee Name, Date of birth, Date of Joining, and Current salary.
+Use union name as union Employee
+Input Format
+Employee ID as integer
+Employee Name as string
+Date of birth as a string
+Date of joining as a string
+Salary as float
+Output Format
+Employee ID, Name, DOB , DOJ and Salary as shown in sample output
+Refer sample output for exact format
+Sample Input Sample Output
+200
+Karthick
+22/03/1988
+09/10/2018
+ID : 200
+Name : Karthick
+DOB : 22/03/1988
+DOJ : 09/10/2018
+
+
+Q6. Write a C program to count occurrences of a word in the file. Get the input from the user, store it in the file and display the occurrences of the word in the file.
+Input Format
+The first line of the input consists of a string for the file.
+The second line of the input consists of words to be searched.
+Output Format
+The output displays the occurrence of a word in a file.
+Sample Input Sample Output
+hi,every one!..hello .welcome to ps.
+hello
+hello - 1
+
+
+
+Q7. Write a program in C to read the content of the file and count the number of lines in a text file.
+File Name : input1.txt
+Input Format
+No console input
+Output Format
+Display File content and Number of lines as shown in the sample output
+Sample Input Sample Output
+File content
+Features of C language
+It is a robust language with rich set of built-in functio
+
+
+Q8. Write a program in C to count a number of words and characters in a file
+File Name: input.txt
+Input Format
+No console input
+Output Format
+Display number of words and characters in the file as shown in the sample output
+Sample Input Sample Output
+Number of words : 146
+Number of characters : 691
+Time Limit: - ms Memory Limit: - kb Code Size: - kb
+
+Solutions
+Section 1
+Q1
+structure
+Q2
+Compile time error
+Q3
+None of the listed options
+Q4
+Will be large enough to hold the largest of the three types;
+Q5
+Streams
+Q6
+struct type
+Q7
+int ungetc(int c, FILE *fp);
+Q8
+ungetc(c, fp);
+Q9
+The code reads a text files and display its content in reverse order
+Q10
+fprintf(fp,"format specifier",variables);
+fscanf(fp,"format specifier",variables);
+
+
+
+Section 2 
+
+Q1 Test Case
+Input Output
+5
+10 Harish 15
+23 Abinaya 17
+40 Ishwarya 21
+Student 3
+Roll no. : 40
+Name : Ishwarya
+Age : 21
+Weightage - 25
+Input Output
+4
+1 Alex 15
+2 pot 17
+3 James 15
+Student 2
+Roll no. : 2
+Name : pot
+Age : 17
+Weightage - 25
+Input Output
+7
+10 duvaraha 45
+20 anitha 21
+30 anjali 13
+Student 2
+Roll no. : 20
+Name : anitha
+Age : 21
+Weightage - 50
+Sample Input Sample Output
+3
+1 Alen 15
+2 potter 17
+3 William 15
+Student 1
+Roll no. : 1
+Name : Alen
+Age : 15
+Solution
+#include <stdio.h>
+int main()
+{
+int i;
+struct student
+{
+int roll_no;
+char name[30];
+int age;
+};
+int n,key;
+scanf("%d",&n);
+struct student stud[n];
+for(i=0; i<n; i++)
+{
+scanf("%d", &stud[i].roll_no);
+scanf("%s",stud[i].name);
+scanf("%d", &stud[i].age);
+}
+scanf("%d",&key);
+for(i=0; i<n; i++)
+{
+if(stud[i].age == key)
+{
+printf("Student %d\n",i+1);
+printf("Roll no. : %d\n", stud[i].roll_no);
+printf("Name : %s\n", stud[i].name);
+printf("Age. : %d\n", stud[i].age);
+}
+}
+return 0;
+}
+
+Q2 Test Case
+Input Output
+5
+10 Harish 15
+23 Abinaya 17
+40 Ishwarya 21
+Student 1
+Roll no. : 10
+Name : Harish
+Age : 15
+Weightage - 25
+Input Output
+4
+1 Alex 15
+2 pot 17
+3 James 15
+Student 1
+Roll no. : 1
+Name : Alex
+Age : 15
+Weightage - 25
+Input Output
+7
+10 duvaraha 45
+20 anitha 21
+30 anjali 13
+Student 1
+Roll no. : 10
+Name : duvaraha
+Age : 45
+Weightage - 50
+Sample Input Sample Output
+3
+1 Alen 15
+Student 1
+Roll no : 1
+1 Alen 15
+2 potter 17
+3 William 15
+Roll no. : 1
+Name : Alen
+Age : 15
+Solution
+#include <stdio.h>
+int main()
+{
+int i;
+struct student
+{
+int roll_no;
+char name[30];
+int age;
+};
+int n;
+scanf("%d",&n);
+struct student stud[n];
+for(i=0; i<n; i++)
+{
+scanf("%d", &stud[i].roll_no);
+scanf("%s",stud[i].name);
+scanf("%d", &stud[i].age);
+}
+for(i=0; i<n; i++)
+{
+printf("Student %d\n",i+1);
+printf("Roll no. : %d\n", stud[i].roll_no);
+printf("Name : %s\n", stud[i].name);
+printf("Age. : %d\n", stud[i].age);
+}
+return 0;
+}
+
+Q3 Test Case
+Input Output
+5
+abc 45
+bcd 35
+aaa 25
+aaa 25
+bcd 35
+abc 45
+xyz 70
+Weightage - 25
+Input Output
+4
+Thooriga 30
+malini 45
+vennila 70
+Thooriga 30
+malini 45
+madhu 65
+vennila 70
+Weightage - 25
+Input Output
+6
+bala 90
+banu 78
+veena 56
+veena 56
+banu 78
+nethu 78
+bala 90
+Weightage - 50
+Sample Input Sample Output
+3
+Neo 50
+Elon 45
+Musk 80
+Elon 45
+Neo 50
+Musk 80
+Solution
+Header
+#include<stdio.h>
+struct Person{
+char name[50];
+int w;
+};
+int main(){
+int n;
+scanf("%d",&n);
+struct Person p[n];
+for(int i=0;i<n;i++){
+scanf("%s",p[i].name);
+scanf("%d",&p[i].w);
+}
+for(int i=0;i<n;i++){
+for(int j=i+1;j<n;j++){
+if(p[i].w>p[j].w){
+struct Person t=p[i];
+p[i]=p[j];
+p[j]=t;
+}
+}
+}
+Footer
+for(int i=0;i<n;i++){
+printf("%s ",p[i].name);
+printf("%d\n",p[i].w);
+}
+}
+
+Q4 Test Case
+Input Output
+14 13
+12 1
+27 feet and 2 inch
+Weightage - 25
+Input Output
+1 12
+2 12
+5 feet and 0 inch
+Weightage - 50
+Input Output
+12 14
+12 13
+26 feet and 3 inch
+Weightage - 25
+Sample Input Sample Output
+12 14
+12 13
+26 feet and 3 inch
+Solution
+#include<stdio.h>
+struct dist
+{
+int feet;
+int inch;
+};
+struct dist add(struct dist a, struct dist b)
+{
+struct dist d;
+d.feet = a.feet+b.feet;
+if(a.inch+b.inch >= 12)
+{
+d.feet = d.feet+((a.inch+b.inch)/12);
+d.inch = (a.inch+b.inch)-(((a.inch+b.inch)/12)*12);
+}
+else
+{
+d.inch = a.inch+b.inch;
+}
+return d;
+}
+int main()
+{
+struct dist d1,d2;
+scanf("%d %d",&d1.feet,&d1.inch);
+scanf("%d %d",&d2.feet,&d2.inch);
+struct dist d = add(d1,d2);
+printf("%d feet and %d inch\n",d.feet,d.inch);
+return 0;
+}
+
+Q5 Test Case
+Input Output
+Musk
+50 60 70 80 90
+Name: Musk
+Total: 350
+Percentage: 70.00
+Weightage - 25
+Input Output
+Henry
+100 100 90 100 100
+Name: Henry
+Total: 490
+Percentage: 98.00
+Weightage - 50
+Input Output
+Manish
+45 89 70 65 45
+Name: Manish
+Total: 314
+Percentage: 62.80
+Weightage - 25
+Sample Input Sample Output
+Manish
+45 89 70 65 45
+Name: Manish
+Total: 314
+Percentage: 62.80
+Solution
+Header
+#include <stdio.h>
+struct student
+{
+char name [30];
+int marks[ 5];
+int total;
+float perc;
+};
+int main()
+{
+struct student std;
+int i;
+scanf("%s",std.name);
+std.total=0;
+for(i=0;i< 5;i++){
+scanf("%d",&std.marks[i]);
+std.total+=std.marks[i];
+}
+std.perc=(float)((float)std.total/(float)500)*100;
+Footer
+printf("Name: %s \nTotal: %d \nPercentage: %.2f",std.name,std.total,std.perc);
+return 0;
+}
+
+Section 3 - Coding
+
+Q1 Test Case
+Input Output
+10 20 10 and 20 lies in quadrant 1
+Weightage - 10
+Input Output
+5 8 5 and 8 lies in quadrant 1
+Weightage - 10
+Input Output
+-2 5 -2 and 5 lies in quadrant 2
+Weightage - 10
+Input Output
+-5 8 -5 and 8 lies in quadrant 2
+Weightage - 10
+Input Output
+-10 -18 -10 and -18 lies in quadrant 3
+Weightage - 10
+Input Output
+-18 -26 -18 and -26 lies in quadrant 3
+Weightage - 10
+Input Output
+5 -10 5 and -10 lies in quadrant 4
+Weightage - 10
+Input Output
+10 -18 10 and -18 lies in quadrant 4
+Weightage - 10
+Input Output
+18 26 18 and 26 lies in quadrant 1
+Weightage - 20
+Sample Input Sample Output
+10 5 10 and 5 lies in quadrant 1
+Sample Input Sample Output
+5 -2 5 and -2 lies in quadrant 4
+Solution
+#include<stdio.h>
+struct point {
+int x,y;
+}p;
+int quadrant(struct point p) {
+if(p.x>0 && p.y>0) {
+return 1;
+}
+if(p.x<0 && p.y>0) {
+return 2;
+}
+if(p.x<0 && p.y<0) {
+return 3;
+}
+if(p.x>0 && p.y<0) {
+return 4;
+}
+}
+int main() {
+scanf("%d%d",&p.x,&p.y);
+int res = quadrant(p);
+if(res == 1) {
+printf("%d and %d lies in quadrant %d",p.x,p.y,res);
+}
+if(res == 2) {
+printf("%d and %d lies in quadrant %d",p.x,p.y,res);
+}
+if(res == 3) {
+printf("%d and %d lies in quadrant %d",p.x,p.y,res);
+}
+if(res == 4) {
+printf("%d and %d lies in quadrant %d",p.x,p.y,res);
+}
+return 0;
+}
+
+Q2 Test Case
+Input Output
+5
+1 Ram 12
+2 Gopi 34
+3 Arun 21
+Unsorted Student Records:
+Id = 1 Name = Ram Age = 12
+Id = 2 Name = Gopi Age = 34
+Id = 3 Name = Arun Age = 21
+Weightage - 100
+Sample Input Sample Output
+5
+1 Ram 12
+2 Gopi 34
+3 Arun 21
+Unsorted Student Records:
+Id = 1 Name = Ram Age = 12
+Id = 2 Name = Gopi Age = 34
+Id = 3 Name = Arun Age = 21
+Solution
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+struct Student {
+char name[50];
+int id;
+int age;
+};
+int comparator(const void* p, const void* q)
+{
+return strcmp(((struct Student*)p)->name,
+((struct Student*)q)->name);
+}
+int main()
+{
+int n;
+scanf("%d",&n);
+struct Student arr[n];
+// Get the students data
+for(int i=0;i<n;i++){
+scanf("%d %s %d",&arr[i].id,arr[i].name,&arr[i].age);
+}
+// Print the Unsorted Structure
+printf("Unsorted Student Records:\n");
+for (int i = 0; i < n; i++) {
+printf("Id = %d Name = %s Age = %d\n",
+arr[i].id, arr[i].name, arr[i].age);
+}
+// Sort the structure
+// based on the specified comparator
+qsort(arr, n, sizeof(struct Student), comparator);
+// Print the Sorted Structure
+printf("\n\nStudent Records sorted by Name:\n");
+for (int i = 0; i < n; i++) {
+printf("Id = %d Name = %s Age = %d \n",
+arr[i].id, arr[i].name, arr[i].age);
+}
+return 0;
+}
+
+Q3 Test Case
+Input Output
+3
+Ramu 100 IT 52000
+Babu 101 CSE 55000
+Hari 102 IT 25000
+IT department employees
+Name : Ramu ID : 100 Salary : 52000.00
+Name : Hari ID : 102 Salary : 25000.00
+Weightage - 25
+Input Output
+1
+Ramu 100 IT 52000
+IT department employees
+Name : Ramu ID : 100 Salary : 52000.00
+Employees with salary greater than 50000
+Weightage - 25
+Input Output
+2
+Ramu 100 IT 52000
+Hari 102 IT 25000
+IT department employees
+Name : Ramu ID : 100 Salary : 52000.00
+Name : Hari ID : 102 Salary : 25000.00
+Weightage - 50
+Sample Input Sample Output
+3
+Ramu 100 IT 52000
+Babu 101 CSE 55000
+Hari 102 IT 25000
+IT department employees
+Name : Ramu ID : 100 Salary : 52000.00
+Name : Hari ID : 102 Salary : 25000.00
+Solution
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+struct Employee{
+char name[50];
+int number;
+char department[50];
+float salary;
+};
+void displaysalary(struct Employee e[],int n){
+for(int i=0;i<n;i++)
+if(e[i].salary>=50000)
+printf("Name : %s ID : %d Department : %s\n",e[i].name,e[i].number,e[i].department);
+}
+void displaydept(struct Employee e[],int n){
+for(int i=0;i<n;i++)
+if(!strcmp(e[i].department,"IT"))
+printf("Name : %s ID : %d Salary : %.2f\n",e[i].name,e[i].number,e[i].salary);
+}
+int main()
+{
+int n;
+scanf("%d",&n);
+struct Employee emp[n];
+for(int i =0;i<n;i++)
+scanf("%s %d %s %f",emp[i].name,&emp[i].number,emp[i].department,&emp[i].salary);
+printf("IT department employees\n");
+displaydept(emp,n);
+printf("\nEmployees with salary greater than 50000\n");
+displaysalary(emp,n);
+return 0;
+}
+
+
+
+
+Q4 Test Case
+Input Output
+5
+Gopi 6 7 8
+Hari 7 8 9
+Sami 5 6 5
+Name : Ravi Average : 9.00
+Name : Hari Average : 8.00
+Name : Gopi Average : 7.00
+Name : Raju Average : 7 00
+Weightage - 25
+Input Output
+5
+Gopi 6 5 8
+Hari 7 2 9
+Sami 5 6 5
+Name : Raju Average : 8.33
+Name : Ravi Average : 7.67
+Name : Gopi Average : 6.33
+Name : Hari Average : 6 00
+Weightage - 25
+Input Output
+3
+Gopi 6 7 8
+Ravi 9 9 9
+Raju 9 7 5
+Name : Ravi Average : 9.00
+Name : Gopi Average : 7.00
+Name : Raju Average : 7.00
+Weightage - 50
+Sample Input Sample Output
+5
+Gopi 6 7 8
+Hari 7 8 9
+Sami 5 6 5
+Name : Ravi Average : 9.00
+Name : Hari Average : 8.00
+Name : Gopi Average : 7.00
+Name : Raju Average : 7 00
+Solution
+#include<stdio.h>
+#include<string.h>
+struct Student{
+char name[50];
+float gp1,gp2,gp3,avg;
+};
+void display(struct Student st[],int n){
+for(int i=0;i<n;i++){
+printf("Name : %s Average : %.2f\n",st[i].name,st[i].avg);
+}
+}
+void sortStudents(struct Student st[],int n){
+struct Student temp;
+for (int i = 0; i < n; i++){
+for (int j = i+1; j < n; j++){
+if (st[i].avg < st[j].avg)
+{
+strcpy(temp.name,st[i].name);
+temp.gp1 = st[i].gp1;
+temp.gp2 = st[i].gp2;
+temp.gp3 = st[i].gp3;
+temp.avg = st[i].avg;
+strcpy(st[i].name,st[j].name);
+st[i].gp1=st[j].gp1;
+st[i].gp2=st[j].gp2;
+st[i].gp3=st[j].gp3;
+st[i].avg=st[j].avg;
+strcpy(st[j].name,temp.name);
+st[j].gp1=temp.gp1;
+st[j].gp2=temp.gp2;
+st[j].gp3=temp.gp3;
+st[j].avg=temp.avg;
+}
+}
+}
+}
+int main(){
+int n;
+scanf("%d",&n);
+struct Student st[n];
+for(int i=0;i<n;i++){
+scanf("%s %f %f %f",st[i].name,&st[i].gp1,&st[i].gp2,&st[i].gp3);
+st[i].avg = (st[i].gp1 + st[i].gp2 + st[i].gp3)/3;
+}
+sortStudents(st,n);
+display(st,n);
+}
+
+Q5 Test Case
+Input Output
+200
+Karthick
+22/03/1988
+09/10/2018
+ID : 200
+Name : Karthick
+DOB : 22/03/1988
+DOJ : 09/10/2018
+Weightage - 100
+Sample Input Sample Output
+200
+Karthick
+22/03/1988
+09/10/2018
+ID : 200
+Name : Karthick
+DOB : 22/03/1988
+DOJ : 09/10/2018
+Solution
+#include<stdio.h>
+union Employee{
+int empID;
+char empname[20];
+char dob[10];
+char doj[10];
+float salary;
+};
+int main(){
+union Employee emp;
+scanf("%d",&emp.empID);
+printf("ID : %d\n",emp.empID);
+scanf("%s",emp.empname);
+printf("Name : %s\n",emp.empname);
+scanf("%s",emp.dob);
+printf("DOB : %s\n",emp.dob);
+scanf("%s",emp.doj);
+printf("DOJ : %s\n",emp.doj);
+scanf("%f",&emp.salary);
+printf("Salary : %.2f",emp.salary);
+}
+
+Q6 Test Case
+Input Output
+hi hi hi hi hi hi hi hi hi
+hi
+hi - 9
+Weightage - 25
+Input Output
+hello to everyone say hello
+hello
+hello - 2
+Weightage - 50
+Input Output
+hi,every one!..hello .welcome to ps.
+hello
+hello - 1
+Weightage - 25
+Sample Input Sample Output
+hi,every one!..hello .welcome to ps.
+hello
+hello - 1
+Solution
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#define BUFFER_SIZE 1000
+/* Function declarations */
+int countOccurrences(FILE *fptr, const char *word);
+int main()
+{
+FILE *fptr;
+char inputstring[1000];
+char word[50];
+int wCount;
+fptr=fopen("index.txt","w");
+scanf("%[^\n]",inputstring);
+fprintf(fptr,"%s",inputstring);
+fclose(fptr);
+/* Input word to search in file */
+scanf("%s", word);
+/* Try to open file */
+fptr = fopen("index.txt", "r");
+/* Exit if file not opened successfully */
+if (fptr == NULL)
+{
+printf("Unable to open file.\n");
+printf("Please check you have read/write previleges.\n");
+exit(EXIT_FAILURE);
+}
+// Call function to count all occurrence of word
+wCount = countOccurrences(fptr, word);
+printf("%s - %d", word, wCount);
+// Close file
+fclose(fptr);
+return 0;
+}
+int countOccurrences(FILE *fptr, const char *word)
+{
+char str[BUFFER_SIZE];
+char *pos;
+int index, count;
+count = 0;
+while ((fgets(str, BUFFER_SIZE, fptr)) != NULL)
+{
+index = 0;
+while ((pos = strstr(str + index, word)) != NULL)
+{
+index = (pos - str) + 1;
+count++;
+}
+}
+return count;
+}
+
+Q7 Test Case
+Input Output
+File content
+Features of C language
+It is a robust language with rich set of built-in functio
+Weightage - 100
+Sample Input Sample Output
+File content
+Features of C language
+It is a robust language with rich set of built-in functio
+Solution
+Header
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+FILE *fp;
+fp =fopen("input1.txt","w");
+fprintf(fp,"Features of C language\nIt is a robust language with rich set of built-in functio\ns and operators that can be used to write any complex program.\nThe C co
+fclose(fp);
+char c;
+int count=1;
+char inputstring[100];
+fp =fopen("input1.txt","r");
+printf("File content\n");
+while((c =getc(fp))!=EOF){
+printf("%c",c);
+if(c=='\n')
+count++;
+}
+printf("\nNumber of lines : %d",count);
+return 0;
+Footer
+}
+
+Q8 Test Case
+Input Output
+Number of words : 146
+Number of characters : 691
+Weightage - 100
+Sample Input Sample Output
+Number of words : 146
+Number of characters : 691
+Solution
+Header
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+FILE *fp,*fptr;
+fp =fopen("input.txt","w");
+fprintf(fp,"Features of C language\nIt is a robust language with rich set of built-in functio\ns and operators that can be used to write any complex program.\nThe C co
+fclose(fp);
+char ch;
+int wrd=1,charctr=1;
+fptr=fopen("input.txt","r");
+ch=fgetc(fptr);
+while(ch!=EOF){
+//printf("%c",ch);
+if(ch==' '||ch=='\n'){
+wrd++;
+}
+else{
+charctr++;
+}
+ch=fgetc(fptr);
+}
+printf("Number of words : %d\n",wrd);
+printf("Number of characters : %d",charctr-1);
+fclose(fptr);
+return 0;
+Footer
+}
+
